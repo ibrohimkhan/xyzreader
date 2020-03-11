@@ -26,6 +26,6 @@ public class ReaderDetailsAdapter extends FragmentStateAdapter {
 
     @Override
     public int getItemCount() {
-        return readers.size();
+        return readers == null ? 0 : readers.size();
     }
 }
