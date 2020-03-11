@@ -58,7 +58,6 @@ public class ReaderViewHolder extends RecyclerView.ViewHolder implements View.On
         if (!TextUtils.isEmpty(reader.thumb)) {
             Picasso.get()
                     .load(reader.thumb)
-                    .fit()
                     .into(thumb);
         }
     }
